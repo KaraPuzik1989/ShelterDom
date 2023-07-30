@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR PETS</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style2.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="header-wrapper">
+            <div class="header-wrapper__item">
+              <a href="index.html">
+                <h1>Cozy House</h1>
+                <p>Shelter for pets in Boston</p></a>
+              </div>
+              <div class="header-wrapper__item">
+                <nav>
+                  <ul>
+                    <li class="pageone">
+                      <a href="index.html">About the shelter</a>
+                    </li>
+                    <li class="pagetwo"><a href="secondpage.html">Our pets</a></li>
+                    <li><a href="#">Help the shelter</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </nav>
+                <div class="mob-menu"><img src="img/Burger (1).png" alt="burger" /></div>
+              </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <div class="main-wrapper">
+            <div class="container">
+                <section class="friends">
+                    <h3>
+                      Our friends who<br>
+                      are looking for a house
+                    </h3>
+                    <div class="caruselka">
+                      <!---- <div id = "Kat" class="ca">
+                        <img src="img/pets-katrine.png" alt="pets-katrine" />
+                        <p>Katrine</p>
+                        <button id = "Katrine"  class="c">Learn more</button>
+                      </div>
+                      <div id = "Jen" class="ca">
+                        <img src="img/pets-jennifer.png" alt="pets-jennifer" />
+                        <p>Jennifer</p>
+                        <button id = "Jennifer" class="c">Learn more</button>
+                      </div>
+                      <div id = "Woo" class="ca">
+                        <img src="img/pets-woody.png" alt="pets-woody" />
+                        <p>Woody</p>
+                        <button id = "Woody" class="c">Learn more</button>
+                      </div>
+                      <div id = "Sop" class="ca">
+                        <img src="img/sophia.png" alt="pets-sophia" />
+                        <p>Sophia</p>
+                        <button id = "Sophia" class="c">Learn more</button>
+                      </div>
+                      <div id = "Tim" class="ca">
+                        <img src="img/pets-timmy.png" alt="pets-Timmy" />
+                        <p>Timmy</p>
+                        <button id = "Timmy" class="c">Learn more</button>
+                    </div>
+                      <div id = "Cha" class="ca">
+                        <img src="img/pets-charly.png" alt="pets-charly" />
+                        <p>Charly</p>
+                        <button id = "Charly" class="c">Learn more</button>
+                    </div>
+                      <div id = "Sca" class="ca">
+                        <img src="img/pets-scarlet.png" alt="pets-scarlet" />
+                        <p>Scarlet</p>
+                        <button id = "Scarlet" class="c">Learn more</button>
+                    </div>
+                      <div id = "Fre" class="ca">
+                        <img src="img/friedy.png" alt="pets-freddie" />
+                        <p>Freddie</p>
+                        <button id = "Freddie" class="c">Learn more</button>
+                    </div> -->
+                        
+                    </div>
+                    <div class="but">
+                      <button class="buton"><<</button>
+                      <button class="buttw"><</button>
+                      <button class="buttr">1</button>
+                      <button class="butfo">></button>
+                      <button class="butfi">>></button>
+                    </div>
+                    <div id = "popupKat" class="popup">
+                      <div class="popup_content">
+                        <div class = "popup_catkat"></div>
+                        <div class="popup_dogcontent">
+                          <h3>Katrine</h3>
+                          <h4>Cat - British Shorthair</h4>
+                          <p>Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.</p>
+                          <ul>
+                            <li><b>Age:</b> 5 months</li>
+                            <li><b>Inoculations:</b> none</li>
+                            <li><b>Diseases:</b> none</li>
+                            <li><b>Parasites</b>: none</li>
+                          </ul>
+                        </div>
+                        <button class="popup_closed_kat"><img src="img/modal_close_button.png" alt="close"></button>
+                      </div>
+                    </div>
+                    <div id = "popup" class="popup">
+                      <div class="popup_content">
+                        <div class = "popup_dogjen"></div>
+                        <div class="popup_dogcontent">
+                          <h3>Jennifer</h3>
+                          <h4>Dog - Labrador</h4>
+                          <p>Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                          <ul>
+                            <li><b>Age:</b> 2 months</li>
+                            <li><b>Inoculations:</b> none</li>
+                            <li><b>Diseases:</b> none</li>
+                            <li><b>Parasites</b>: none</li>
+                          </ul>
+                        </div>
+                        <button class="popup_closed_jen"><img src="img/modal_close_button.png" alt="close"></button>
+                      </div>
+                    </div>
+                    <div id = "popupWoo" class="popup">
+                      <div class="popup_content">
+                        <div class = "popup_dogWoo"></div>
+                        <div class="popup_dogcontent">
+                          <h3>Woody</h3>
+                          <h4>Dog - Golden Retriever</h4>
+                          <p>Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.</p>
+                          <ul>
+                            <li><b>Age:</b>  3 1/2 year</li>
+                            <li><b>Inoculations:</b> none</li>
+                            <li><b>Diseases:</b> none</li>
+                            <li><b>Parasites</b>: none</li>
+                          </ul>
+                        </div>
+                        <button class="popup_closed_woo"><img src="img/modal_close_button.png" alt="close"></button>
+                      </div>
+                    </div>
+                    <div id = "popupSop" class="popup">
+                      <div class="popup_content">
+                        <div class = "popup_dogSop"></div>
+                        <div class="popup_dogcontent">
+                          <h3>Sophia</h3>
+                          <h4>Dog - Shih tzu</h4>
+                          <p>Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.</p>
+                          <ul>
+                            <li><b>Age:</b> 5 months</li>
+                            <li><b>Inoculations:</b> none</li>
+                            <li><b>Diseases:</b> none</li>
+                            <li><b>Parasites</b>: none</li>
+                          </ul>
+                        </div>
+                        <button class="popup_closed_sop"><img src="img/modal_close_button.png" alt="close"></button>
+                      </div>
+                    </div>
+                    <div id = "popupTim" class="popup">
+                      <div class="popup_content">
+                        <div class = "popup_catTim"></div>
+                        <div class="popup_dogcontent">
+                          <h3>Timmy</h3>
+                          <h4>Cat - British Shorthair</h4>
+                          <p>Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.</p>
+                          <ul>
+                            <li><b>Age:</b> 11 months</li>
+                            <li><b>Inoculations:</b> none</li>
+                            <li><b>Diseases:</b> none</li>
+                            <li><b>Parasites</b>: none</li>
+                          </ul>
+                        </div>
+                        <button class="popup_closed_tim"><img src="img/modal_close_button.png" alt="close"></button>
+                      </div>
+                    </div>
+                    <div id = "popupCha" class="popup">
+                      <div class="popup_content">
+                        <div class = "popup_dogCha"></div>
+                        <div class="popup_dogcontent">
+                          <h3>Charly</h3>
+                          <h4>Dog - Jack Russell Terrier </h4>
+                          <p>This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.</p>
+                          <ul>
+                            <li><b>Age:</b> 2 ears</li>
+                            <li><b>Inoculations:</b> none</li>
+                            <li><b>Diseases:</b> none</li>
+                            <li><b>Parasites</b>: none</li>
+                          </ul>
+                        </div>
+                        <button class="popup_closed_cha"><img src="img/modal_close_button.png" alt="close"></button>
+                      </div>
+                    </div>
+                    <div id = "popupSca" class="popup">
+                      <div class="popup_content">
+                        <div class = "popup_dogSca"></div>
+                        <div class="popup_dogcontent">
+                          <h3>Scarlet</h3>
+                          <h4>Dog - Jack Russell Terrier</h4>
+                          <p>Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.</p>
+                          <ul>
+                            <li><b>Age:</b> 4 months</li>
+                            <li><b>Inoculations:</b> none</li>
+                            <li><b>Diseases:</b> none</li>
+                            <li><b>Parasites</b>: none</li>
+                          </ul>
+                        </div>
+                        <button class="popup_closed_sca"><img src="img/modal_close_button.png" alt="close"></button>
+                      </div>
+                    </div>
+                    <div id = "popupFre" class="popup">
+                      <div class="popup_content">
+                        <div class = "popup_catFre"></div>
+                        <div class="popup_dogcontent">
+                          <h3>Freddie</h3>
+                          <h4>Cat - British Shorthair</h4>
+                          <p>Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.</p>
+                          <ul>
+                            <li><b>Age:</b> 10 months</li>
+                            <li><b>Inoculations:</b> none</li>
+                            <li><b>Diseases:</b> none</li>
+                            <li><b>Parasites</b>: none</li>
+                          </ul>
+                        </div>
+                        <button class="popup_closed_fre"><img src="img/modal_close_button.png" alt="close"></button>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-wraper">
+            <div class="container">
+              <div class="contentfoot">
+              <div class="foton">
+                <h5>For questions<br> and suggestions</h5><div class="mail">
+                  <a href="mailto:shelter@gmail.com"
+                  ><img class="email" src="img/icon-email.svg" alt="#" />shelter@gmail.com</a></div>
+                  <div class="tel">
+                  <a href="tel:+136745677554"
+                  ><img class="tel" src="img/icon-phone.svg" alt="tel" />+13 674 567 75 54</a>
+                </div>
+              </div>
+              <div class="fottw">
+                <h5>We are waiting<br> for your visit</h5>
+                <a href="https://www.google.com/maps/place/Center+Plaza/@42.3501347,-71.1087252,13z/data=!3m1!5s0x89e37a1b3b7859b7:0xbea62e440d76c86d!4m10!1m2!2m1!1s1+central+street+boston!3m6!1s0x89e37085215d1201:0xc34eff53266faf23!8m2!3d42.3597602!4d-71.0602111!15sChcxIGNlbnRyYWwgc3RyZWV0IGJvc3RvbloZIhcxIGNlbnRyYWwgc3RyZWV0IGJvc3RvbpIBBXBsYXphmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5WYjFsdU9VTkJFQUXgAQA!16s%2Fg%2F11c6v9f_mv?entry=ttu">
+                  <div class="locationone">
+                  <div><img class="location" src="img/icon-marker.svg" alt="#"></div>
+                  <div><p>1 Central Street, Boston (entrance from the store)</p></div>
+                  </div></a>
+                  <div class="locationtwo">
+                    <a href="https://www.google.com/maps/place/South+Park+Studios/@51.4668093,-0.3460063,12z/data=!4m10!1m2!2m1!1s18+south+park+london!3m6!1s0x48760f7bf83d565b:0x9697b9c736a2d5a6!8m2!3d51.4668093!4d-0.193571!15sChQxOCBzb3V0aCBwYXJrIGxvbmRvbpIBGm9mZmljZV9zcGFjZV9yZW50YWxfYWdlbmN54AEA!16s%2Fg%2F1tdwddw_?entry=ttu">
+                  <div><img class="location" src="img/icon-marker.svg" alt="#" /></div>
+                      <div class="div">
+                        <p>18 South Park, London</p></a>
+                      </div>
+                    </div>
+              </div>
+              <div class="fottr">
+                <img src="img/footer-puppy.png" alt="#">
+              </div>
+            </div>
+          </div>
+        </footer>
+    </footer>
+</body>
+</html>
